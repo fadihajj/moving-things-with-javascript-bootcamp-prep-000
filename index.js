@@ -1,8 +1,7 @@
 const app = "I don't do much.";
 
 document.addEventListener('keydown', function(e){
-<<<<<<< HEAD
-  
+
   if(e.which === 37){
    moveDodger('left'); 
   }
