@@ -28,9 +28,6 @@ function moveDodger(direction){
     }
 }
 
-  
-
-=======
   console.log(e.key);
   if(e.which === 37){
    moveDodgerLeft(); 
