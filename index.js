@@ -28,12 +28,6 @@ function moveDodger(direction){
     }
 }
 
-  console.log(e.key);
-  if(e.which === 37){
-   moveDodgerLeft(); 
-  }
-});
-
 function moveDodgerLeft(){
   
   var dodgerLeft =  $('#dodger').style.left;
@@ -42,4 +36,3 @@ function moveDodgerLeft(){
   
   dodgerLeft = `${left -1}px`;
 }
->>>>>>> 5bb820ccc316d2f57203d0a915d04bc408518c68
