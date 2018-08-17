@@ -1,6 +1,7 @@
 const app = "I don't do much.";
 
 document.addEventListener('keydown', function(e){
+<<<<<<< HEAD
   
   if(e.which === 37){
    moveDodger('left'); 
@@ -30,3 +31,19 @@ function moveDodger(direction){
 
   
 
+=======
+  console.log(e.key);
+  if(e.which === 37){
+   moveDodgerLeft(); 
+  }
+});
+
+function moveDodgerLeft(){
+  
+  var dodgerLeft =  $('#dodger').style.left;
+  var leftNumbers = dodgerLeft.replace('px', '');
+  var left = parseInt(leftNumbers, 10);
+  
+  dodgerLeft = `${left -1}px`;
+}
+>>>>>>> 5bb820ccc316d2f57203d0a915d04bc408518c68
